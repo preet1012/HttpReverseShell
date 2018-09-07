@@ -1,6 +1,6 @@
 import BaseHTTPServer
 
-Host_Name = '127.0.0.1'
+Host_Name = '127.0.0.1' #Put host ip address her
 Host_Port = 80
 
 class MyHandler(BaseHTTPServer.BaseHTTPRequestHandler):
